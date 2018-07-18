@@ -11,10 +11,14 @@ We used the student-level data files from 2013 and 2014.
 
 Stata codes:
 Stata .do files for cleaning the data and undertaking the analysis are included in this file. This file contains the following:
-• createdata.do which cleans the raw .csv files into the data used by this project, and labels the
+
+  • createdata.do which cleans the raw .csv files into the data used by this project, and labels the
 variables adequately to be matched with those in the paper.
-• choosevars.do which selects the variables required for the analysis.
-• FINAL.do which generates the final results for Section V (requires
-choosevars.do to run).
-• instruments.do which produces the results in Appendix F.
-• predict.do which generates the predictions in Section VI.
+
+  • choosevars.do which selects the variables required for the analysis.
+
+  • FINAL.do which generates the final results for Section V (requires choosevars.do to run).
+
+  • instruments.do which produces the results in Appendix F.
+
+  • predict.do which generates the predictions in Section VI.
